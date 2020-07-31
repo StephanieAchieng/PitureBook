@@ -4,58 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".MainActivity2">
 
     <ImageView
-        android:id="@+id/etDescription"
-        android:layout_width="497dp"
-        android:layout_height="297dp"
-        android:layout_marginTop="32dp"
+        android:id="@+id/imageView"
+        android:layout_width="585dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/girl1" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="464dp"
-        android:layout_height="76dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="A display photo of a girl walking on the streets enjoying a cup of coffee."
+    <TextView
+        android:id="@+id/tvCoffee"
+        android:layout_width="536dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="32dp"
+        android:text="A girl taking coffee in the streets"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDescription"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.104" />
 
     <Button
-        android:id="@+id/etPrev"
+        android:id="@+id/btnPrevious"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="247dp"
-        android:layout_marginEnd="362dp"
-        android:layout_marginRight="362dp"
-        android:text="Prev"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="466dp"
+        android:layout_marginRight="466dp"
+        android:text="Previous"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCoffee" />
 
     <Button
         android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="243dp"
-        android:layout_marginLeft="243dp"
-        android:layout_marginTop="243dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginRight="31dp"
+        android:layout_marginStart="355dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/etPrev"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
-
+        app:layout_constraintStart_toEndOf="@+id/btnPrevious"
+        app:layout_constraintTop_toBottomOf="@+id/tvCoffee" />
 </androidx.constraintlayout.widget.ConstraintLayout>

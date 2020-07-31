@@ -4,57 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main4Activity">
+    tools:context=".MainActivity4">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="425dp"
-        android:layout_height="259dp"
-        android:layout_marginStart="218dp"
-        android:layout_marginLeft="218dp"
+        android:id="@+id/imageView3"
+        android:layout_width="747dp"
+        android:layout_height="429dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/main3must" />
 
-    <EditText
-        android:id="@+id/etShop"
-        android:layout_width="395dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="108dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Shop for your wears virtually on our website"
+    <TextView
+        android:id="@+id/tvHappy"
+        android:layout_width="743dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="48dp"
+        android:text="Happy faces people"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
         android:id="@+id/btnPrev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginLeft="23dp"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginRight="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="662dp"
+        android:layout_marginRight="662dp"
         android:text="Prev"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etShop" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHappy" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="190dp"
-        android:layout_marginLeft="190dp"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginRight="23dp"
+        android:layout_marginStart="554dp"
+        android:layout_marginLeft="554dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnPrev"
-        app:layout_constraintTop_toBottomOf="@+id/etShop" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHappy" />
 </androidx.constraintlayout.widget.ConstraintLayout>
